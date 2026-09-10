@@ -1,0 +1,19 @@
+# Python build and local environment files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated engagement data: never commit these to a public repository
+**/oplog.db
+**/vault.oplog
+**/scope.yml
+**/evidence/artifacts/
+**/reports/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oplog-engagement"
+version = "0.2.0"
+description = "Local-first evidence ledger for authorized security engagements"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["cryptography>=42"]
+authors = [{name = "Soheil Hashemi"}]
+
+[project.urls]
+Homepage = "https://github.com/soheilsec/oplog"
+Repository = "https://github.com/soheilsec/oplog"
+Issues = "https://github.com/soheilsec/oplog/issues"
+
+[project.scripts]
+oplog = "oplog.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
