@@ -1,5 +1,7 @@
 # OpLog
 
+![OpLog workflow](oplog.png)
+
 OpLog is a small, local-first evidence ledger for **authorised** security
 engagements. It helps an operator keep one portable workspace containing the
 scope, timestamped activity, collected artifacts, deployment inventory and
